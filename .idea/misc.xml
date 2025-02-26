@@ -4,6 +4,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/bank-microservice-loan/pom.xml" />
         <option value="$PROJECT_DIR$/bank-microservice-cards/pom.xml" />
         <option value="$PROJECT_DIR$/bank-microservice-accounts/pom.xml" />
