@@ -92,15 +92,13 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.2</version>
 				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
+					<to>
+						<image>deep0983/${project.artifactId}:s6</image>
+					</to>
 				</configuration>
 			</plugin>
 		</plugins>
