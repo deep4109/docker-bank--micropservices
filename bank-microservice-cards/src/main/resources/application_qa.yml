@@ -1,0 +1,17 @@
+
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to EazyBank cards related QA APIs "
+  contactDetails:
+    name: "Rahul - Developer"
+    email: "rahul@eazybank.com"
+  onCallSupport:
+    - (555) 555-1236
+    - (555) 523-1346
