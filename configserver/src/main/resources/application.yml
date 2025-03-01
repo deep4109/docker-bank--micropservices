@@ -3,15 +3,24 @@ spring :
   application:
     name: "configserver"
   profiles:
-   active: native
+    #active: native
+    active: git
   cloud:
     config:
       server:
-        native:
+        git:
+          uri: https://github.com/deep4109/docker-bank--config.git
+          default-label: master
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+#        native:
+#
+#          #search-locations: "classpath:/config"
+#          search-locations: "file:///E://java-developer//javaprojects//docker-bank-microservices//config"
 
-          #search-locations: "classpath:/config"
-          search-locations: "file:///E://java-developer//javaprojects//docker-bank-microservices//config"
-
+encrypt:
+  key: "45D81EC1EF61DF9AD8D3E5BB397F9"
 
 
 server:
