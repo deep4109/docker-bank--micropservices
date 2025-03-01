@@ -1,8 +1,8 @@
 package com.eazybytes.loans.controller;
 
 import com.eazybytes.loans.constants.LoansConstants;
-import com.eazybytes.loans.dto.AccountsContactInfoDto;
 import com.eazybytes.loans.dto.ErrorResponseDto;
+import com.eazybytes.loans.dto.LoansContactInfoDto;
 import com.eazybytes.loans.dto.LoansDto;
 import com.eazybytes.loans.dto.ResponseDto;
 import com.eazybytes.loans.service.ILoansService;
@@ -52,7 +52,7 @@ public class LoansController {
     private Environment environment;
 
     @Autowired
-    private AccountsContactInfoDto accountsContactInfoDto;
+    private LoansContactInfoDto loansContactInfoDto;
 
     @Operation(
             summary = "Create Loan REST API",
@@ -252,10 +252,10 @@ public class LoansController {
     }
     )
     @GetMapping("/contact-info")
-    public ResponseEntity<AccountsContactInfoDto> getContactInfo(){
+    public ResponseEntity<LoansContactInfoDto> getContactInfo(){
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(accountsContactInfoDto);
+                .body(loansContactInfoDto);
     }
 
 }

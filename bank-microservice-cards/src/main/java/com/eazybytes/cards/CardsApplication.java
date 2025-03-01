@@ -1,6 +1,6 @@
 package com.eazybytes.cards;
 
-import com.eazybytes.cards.dto.AccountsContactInfoDto;
+import com.eazybytes.cards.dto.CardsContactInfoDto;
 import io.swagger.v3.oas.annotations.ExternalDocumentation;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Contact;
@@ -16,7 +16,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @EnableJpaRepositories("com.eazybytes.cards.repository")
 @EntityScan("com.eazybytes.cards.model")*/
 @EnableJpaAuditing(auditorAwareRef = "auditAwareImpl")
-@EnableConfigurationProperties(value = AccountsContactInfoDto.class)
+@EnableConfigurationProperties(value = CardsContactInfoDto.class)
 @OpenAPIDefinition(
 		info = @Info(
 				title = "Cards microservice REST API Documentation",
