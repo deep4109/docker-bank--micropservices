@@ -2,6 +2,7 @@ E:\java-developer\javaprojects\docker-bank-microservices\bank-microservice-loan\
 E:\java-developer\javaprojects\docker-bank-microservices\bank-microservice-loan\src\main\java\com\eazybytes\loans\constants\LoansConstants.java
 E:\java-developer\javaprojects\docker-bank-microservices\bank-microservice-loan\src\main\java\com\eazybytes\loans\controller\LoansController.java
 E:\java-developer\javaprojects\docker-bank-microservices\bank-microservice-loan\src\main\java\com\eazybytes\loans\dto\ErrorResponseDto.java
+E:\java-developer\javaprojects\docker-bank-microservices\bank-microservice-loan\src\main\java\com\eazybytes\loans\dto\LoansContactInfoDto.java
 E:\java-developer\javaprojects\docker-bank-microservices\bank-microservice-loan\src\main\java\com\eazybytes\loans\dto\LoansDto.java
 E:\java-developer\javaprojects\docker-bank-microservices\bank-microservice-loan\src\main\java\com\eazybytes\loans\dto\ResponseDto.java
 E:\java-developer\javaprojects\docker-bank-microservices\bank-microservice-loan\src\main\java\com\eazybytes\loans\entity\BaseEntity.java

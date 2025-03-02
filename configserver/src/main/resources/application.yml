@@ -37,6 +37,15 @@ management:
   endpoint:
     monitor:
       enabled: true
+    health:
+      probes:
+        enabled: true
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
+
 
 
 #        native:

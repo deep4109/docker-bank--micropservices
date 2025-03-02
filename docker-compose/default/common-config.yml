@@ -1,7 +1,7 @@
 services:
   network-deploy-service:
     networks:
-      - eazybank
+      - deep0983-network
 
   microservice-base-config:
     extends:
